@@ -1,15 +1,17 @@
 {
-    "name": "com.acme-studio.scriptablespropertydrawer",
-    "version": "1.0.0",
-    "displayName": "ScriptableObjects property drawer",
-    "description": "ScriptableObjects property drawer",
+    "name": "com.acme-studio.scriptabledrawer",
+    "displayName": "Expandable scriptableobjects drawer",
+    "version": "1.0.1",
     "unity": "2022.3",
-    "unityRelease": "",
-    "documentationUrl": "",
-    "changelogUrl": "",
-    "licensesUrl": "",
-    "dependencies": "",
-    "keywords": "",
+    "description": "Expandable scriptableobjects drawer",
+    "keywords": [
+        "Drawer",
+        "ScriptableObjects Expandable Drawer"
+    ],
+    "repository": {
+        "url": "https://github.com/acme-studio/ScriptablePropertyDrawer.git",
+        "type": "git"
+    },
     "author": {
         "name": "Acme-Studio",
         "email": "info@acme-studio.com",
