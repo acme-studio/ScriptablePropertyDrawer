@@ -1,8 +1,8 @@
 {
-    "name": "com.acme-studio.ScriptableDrawer",
+    "name": "com.acme-studio.scriptablespropertydrawer",
     "version": "1.0.0",
-    "displayName": "Textures Editor",
-    "description": "Small tool about textures",
+    "displayName": "ScriptableObjects property drawer",
+    "description": "ScriptableObjects property drawer",
     "unity": "2022.3",
     "unityRelease": "",
     "documentationUrl": "",
