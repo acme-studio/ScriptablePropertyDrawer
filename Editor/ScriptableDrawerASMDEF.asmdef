@@ -1,10 +1,10 @@
 {
-    "name": "ScriptablesDrawerASMDEF",
+    "name": "ScriptableDrawerASMDEF",
     "rootNamespace": "",
-    "references": [],
-    "includePlatforms": [
-        "Editor"
+    "references": [
+        "GUID:5f85ba6072b114c1cbed8297f8fda70d"
     ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
