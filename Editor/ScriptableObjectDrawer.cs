@@ -3,7 +3,6 @@ using UnityEditor;
 #endif
 using UnityEngine;
 
-#if UNITY_2022_1_OR_NEWER
 using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 using System.Linq;
@@ -14,6 +13,8 @@ using System.Collections.Generic;
 [CustomPropertyDrawer(typeof(ShowInInspector), useForChildren: true)]
 public class ScriptableObjectDrawer : PropertyDrawer
 {
+#if UNITY_2022_1_OR_NEWER
+
     private ObjectField objectField;
     private SerializedProperty property;
     private Button button;
@@ -191,8 +192,8 @@ public class ScriptableObjectDrawer : PropertyDrawer
         }
         return height;
     }
-}
 #endif
+}
 
 
 
