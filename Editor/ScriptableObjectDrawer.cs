@@ -1,6 +1,5 @@
 #if UNITY_EDITOR
 using UnityEditor;
-#endif
 using UnityEngine;
 
 using UnityEditor.UIElements;
@@ -194,6 +193,6 @@ public class ScriptableObjectDrawer : PropertyDrawer
     }
 #endif
 }
-
+#endif
 
 
