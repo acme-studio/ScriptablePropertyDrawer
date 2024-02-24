@@ -1,4 +1,6 @@
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine;
 
 #if UNITY_2022_1_OR_NEWER
@@ -7,13 +9,12 @@ using UnityEngine.UIElements;
 using System.Linq;
 using System.Reflection;
 using System.Collections.Generic;
-#endif
+
 
 [CustomPropertyDrawer(typeof(ShowInInspector), useForChildren: true)]
 public class ScriptableObjectDrawer : PropertyDrawer
 {
 
-#if UNITY_2022_1_OR_NEWER
 
     private ObjectField objectField;
     private SerializedProperty property;
@@ -118,7 +119,7 @@ public class ScriptableObjectDrawer : PropertyDrawer
             containerElement.Clear();
         }
     }
-#else
+#elif UNITY_2020_1_OR_NEWER
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
     {
         EditorGUI.BeginProperty(position, label, property);
