@@ -14,8 +14,6 @@ using System.Collections.Generic;
 [CustomPropertyDrawer(typeof(ShowInInspector), useForChildren: true)]
 public class ScriptableObjectDrawer : PropertyDrawer
 {
-
-
     private ObjectField objectField;
     private SerializedProperty property;
     private Button button;
@@ -193,8 +191,8 @@ public class ScriptableObjectDrawer : PropertyDrawer
         }
         return height;
     }
-#endif
 }
+#endif
 
 
 
